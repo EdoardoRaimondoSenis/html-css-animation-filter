@@ -37,24 +37,42 @@
     filter: grayscale();
 }
 
-.ex-7-img {
+.ex-7-img:hover {
+    transition: 6s;
+    filter: blur() sepia();
+}
+
+
+.ex-8-img:hover {
+    transition: 4s;
+    border-radius: 20px;
+    filter: grayscale() sepia();
+}
+
+.ex-9-img:hover {
+    transition: 6s;
+    border-radius: 20px;
+    margin: 0;
+    width: 525px;
+    filter: grayscale() sepia();
+}
+
+.ex-10-icon {
+    animation: rotation infinite 2s linear;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+.ex-11-icon {
     
-}
-
-.ex-8-img {
-
-}
-
-.ex-9-img {
-
-}
-
-.ex-10-icon fas fa-circle-notch {
-
-}
-
-.ex-11-icon fas fa-circle-notch {
-
 }
 
 .ex-12-button {
