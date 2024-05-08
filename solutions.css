@@ -26,12 +26,19 @@
     transition: 3s;
 }
 
-.ex-6-img {
+.ex-5-square:active {
+    margin: 40px;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
 
+.ex-6-img:hover {
+    filter: grayscale();
 }
 
 .ex-7-img {
-
+    
 }
 
 .ex-8-img {
